@@ -1,0 +1,129 @@
+/* Page 1 */
+
+.bg-background-color {
+    background-color: #F1F3FF;
+}
+
+.container .button-disabled{
+    display: inline-block;
+    text-decoration: none;
+    color: #0D28A6;
+    background: #0D28A6;
+    padding: 5px;
+    border-radius: 1px;
+    width:80px;
+    padding-bottom: 20px;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: seagreen;
+}
+
+
+.text-justify-p {
+    text-align: justify;
+}
+
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid seagreen;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 6px;
+    margin-bottom: -9px;
+}
+
+
+.container .nav-items .btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #5CB85F;
+    padding: 5px;
+    border-radius: 1px;
+    
+}
+
+.container .nav-items .btn:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background:seagreen;
+    padding: 5px;
+    border-radius: 1px;
+}
+
+.container .submit-send {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #5CB85F;
+    padding: 5px;
+    border-radius: 1px;
+    font-weight: bold;
+    border-color: #5CB85F;
+    
+}
+
+/* .container .submit-send:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background:seagreen;
+    padding: 5px;
+    border-radius: 1px;
+} */
+
+.text-justify {
+    text-align: justify;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Page 3 */
+
+.img img {
+    padding: 15px;
+}
+
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    margin-top: 20px;
+}
+
+.text-start {
+    margin: 20%;
+    font-weight: bold;
+    padding-top: 95px;
+}
+
+.grid-center {
+    color: white;
+    font-weight: bold;
+}
+
+.grid-center h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid-center p {
+    font-weight: normal;
+    margin: 20px;
+}
+
+.grid-center .btn-success {
+    background-color:#5CB85F;
+    border-radius: 1px;
+    font-weight: bold;
+    margin: 10px;
+}
