@@ -127,3 +127,23 @@
     font-weight: bold;
     margin: 10px;
 }
+
+.container .text-top {
+    text-align:left;
+}
+
+.accordion-item {
+    margin-left: 45%;
+}
+
+.accordion-button {
+    font-weight: bold;
+}
+
+.media-icon img, png{
+    vertical-align: middle;
+}
+
+.navigation-text {
+    font-weight: bold;
+}
